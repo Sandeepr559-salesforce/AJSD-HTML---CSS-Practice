@@ -7,7 +7,7 @@
   list-style: none;
 }
 
-.header {
+/* .header {
   position: fixed;
   top: 0;
   left: 0;
@@ -301,7 +301,7 @@ border:2px solid orangered
   text-align: center;
   font-size: 12px;
   color: White;
-}
+} */
 
 /* Default mobile styles */
 @media (max-width: 768px) {
