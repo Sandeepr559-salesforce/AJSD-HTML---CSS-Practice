@@ -33,6 +33,7 @@
 }
 span {
   color: orangered;
+  display: inline;
 }
 
 .navbar a {
@@ -86,13 +87,14 @@ span {
 }
 
 .home-content h1 {
-  font-size: 62px;
+  font-size: 50px;
   line-height: 1.2;
 }
 
 .home-content p {
   font-size: 18px;
   margin: 25px 0 30px;
+  text-align: justify;
 }
 
 .btn-box {
@@ -144,7 +146,6 @@ span {
   border-radius: 50%;
   width: 400px;
 }
-/* Watch at 9:19 https://youtu.be/Dtb3DdSvYRY?si=DCipCEEZsaCUATcP */
 /* img
 {
   aspect-ratio:auto;
@@ -189,7 +190,7 @@ span {
 }
 
 .about-content h3 {
-  font-size: 62px;
+  font-size: 50px;
   color: white;
 }
 
