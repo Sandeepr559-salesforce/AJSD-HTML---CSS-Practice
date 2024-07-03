@@ -1,0 +1,19 @@
+body
+{
+    background-color: antiquewhite;
+}
+
+.box1
+{
+    color:whitesmoke;
+    height: 3.5%;
+    width: 3.5%;
+    background-color: deepskyblue;
+    padding: 5%;
+    border: double green;
+    border-width: 1rem;
+}
+.box2
+{
+    color:Green;
+}
