@@ -1,0 +1,38 @@
+div.card
+{
+    width:640px;
+    height:480px;
+    border: 7px Black;
+    border-style: dashed;
+    background-color: #faebd7;
+    border-radius: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.userImg
+{
+    width:170px;
+    height:170px;
+    Padding:10px;
+    margin: 5px; 
+}
+
+.details
+{
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    margin: 20px;
+    border: 2px Solid red;
+    border-radius: 40px;
+}
+.cardText, span
+{
+    font-size: 26px;
+}
+span
+{
+    color: red;
+}
