@@ -1,48 +1,45 @@
-//Callback Function
-//emoji
-//high5--> callback function(🙌)
-//allTheBest --> callback Function(👍)
-const high5 = function () 
-{
-    console.log('🙌');
-}
+/**
+ * The code demonstrates the use of arrow functions in JavaScript for age calculation with different
+ * variations in parameter handling and return statements.
+ */
+//Arrow Functions
+//Special type of function expression
 
-//callback function for the all the best
-const allTheBest = function () 
-{
-    console.log('👍');
-}
+//Function expression
+// const print=function ()
+// {
+//     console.log("AJSD");
+// }
+// print();
+//Arrow Function
+const print = () => console.log("AJSkil");
+print();
 
-//mainFunction --> HigherOrderFunction
-//Accepts the another function as a parameter
-const printEmoji = function (fn)//Higher-order function
-{
-    fn();//invoking the callback function
-}
+//Arrow function with 1 parameter and return statement
+//Age Calculation
+const age = function (yearOfBirth) {
+  return 2024 - yearOfBirth;
+};
+console.log(age(2000));
 
-printEmoji(allTheBest);//Passing the function as an argument without function braces
+//How to convert the above function Expression to Arrow Function
+const age1 = (yearOfBirth) => 2024 - yearOfBirth;
 
-//Cube and square of the number
-//1.Callback fn --> Cube
-//2.Callback fn --> Square
+//How to invoke/call this
+console.log(age1(1995));
 
-//1.Callback fn --> Cube
-const cube = function (num) 
-{
-    return num ** 3;//Cube of the number
-}
-
-//2.Callback fn --> Square
-const sqr = function (num) 
-{
-    return num ** 2;//Cube of the number
-}
-
-const operator = function (num, callbackFn) 
-{
-    console.log('Function name: ', callbackFn.name);
-    console.log('Square of ' + num + ' is ' + callbackFn(num));
-}
-
-operator(6, sqr);
-operator(5, cube);
+//Arrow function with MULTIPLE statements in the BODY
+//When we have multiple statements in the body then we need to use return statement
+const age2 = (yearOfBirth) => {
+  let calc = 2024 - yearOfBirth;
+  return calc;
+};
+console.log(age2(1999));
+//Arrow function with multiple PARAMETERS
+//1.YearOfBirth(parameter 1)
+//2.CurrentYear(Parameter 2)
+const age3 = (yearOfBirth, currentYear) => {
+  let calc = currentYear - yearOfBirth;
+  return calc;
+};
+console.log(age3(1966, 2024));
