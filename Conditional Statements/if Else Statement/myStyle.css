@@ -1,6 +1,6 @@
 body
 {
-    background-color:#C6A9F6;
+    background-color: rgb(5, 227, 142);
 }
 
 .box1
@@ -18,6 +18,8 @@ body
     color:Green;
 }
 
-p{
-    font-weight: bold;
+P
+{
+font-weight: 900;
+font-size: xx-large;
 }
